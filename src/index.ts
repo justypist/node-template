@@ -1,3 +1,9 @@
-import { hello } from './add';
+import Koa from 'koa';
 
-hello('123');
+const app = new Koa();
+
+app.use(async ctx => {
+  ctx.body = { msg: 'request successfuly' };
+});
+
+app.listen(2000);
