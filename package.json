@@ -4,6 +4,7 @@
   "description": "Node服务端应用模板",
   "private": true,
   "scripts": {
+    "prepare": "husky install",
     "dev": "webpack --config webpack.dev.js --watch",
     "build": "webpack --config webpack.prod.js"
   },
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/simplessor/node-template#readme",
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@tsconfig/node16": "^1.0.3",
     "@types/node": "^18.7.13",
     "@typescript-eslint/eslint-plugin": "^5.35.1",
@@ -29,6 +32,8 @@
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "fork-ts-checker-webpack-plugin": "^7.2.13",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "nodemon-webpack-plugin": "^4.8.1",
     "prettier": "^2.7.1",
     "ts-loader": "^9.3.1",
