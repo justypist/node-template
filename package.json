@@ -1,0 +1,21 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Node服务端应用模板",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplessor/node-template.git"
+  },
+  "keywords": [
+    "nodejs",
+    "template"
+  ],
+  "author": "yongx",
+  "license": "GPL3.0",
+  "bugs": {
+    "url": "https://github.com/simplessor/node-template/issues"
+  },
+  "homepage": "https://github.com/simplessor/node-template#readme"
+}
