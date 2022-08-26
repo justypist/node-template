@@ -1,5 +1,3 @@
-function hello(name: string) {
-  console.log(`hello ${name}`);
-}
+import { hello } from "./add";
 
-hello('yongx');
+hello('yongx 121231233');
