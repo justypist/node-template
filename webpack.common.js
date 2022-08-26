@@ -25,7 +25,13 @@ const WebpackConfig = {
   },
   resolve: {
     extensions: ['.json', '.ts', '.js'],
-    alias: {},
+    alias: {
+      '@controller': path.resolve('src', 'controller/index'),
+      '@controller/*': path.resolve('src', 'controller/'),
+      '@service/*': path.resolve('src', 'service/'),
+      '@entity/*': path.resolve('src', 'entity/'),
+      '@util/*': path.resolve('src', 'util/'),
+    },
   },
 };
 
