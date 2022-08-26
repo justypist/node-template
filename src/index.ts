@@ -1,3 +1,3 @@
-import { hello } from "./add";
+import { hello } from './add';
 
 hello('yongx 121231233');

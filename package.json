@@ -24,6 +24,9 @@
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
     "@types/node": "^18.7.13",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "eslint": "^8.22.0",
     "fork-ts-checker-webpack-plugin": "^7.2.13",
     "nodemon-webpack-plugin": "^4.8.1",
     "ts-loader": "^9.3.1",
