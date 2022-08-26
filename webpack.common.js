@@ -17,16 +17,16 @@ const WebpackConfig = {
             loader: 'ts-loader',
             options: {
               transpileOnly: true,
-            }
-          }
-        ]
-      }
+            },
+          },
+        ],
+      },
     ],
   },
   resolve: {
     extensions: ['.json', '.ts', '.js'],
     alias: {},
-  }
+  },
 };
 
 module.exports = WebpackConfig;
