@@ -6,8 +6,10 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.35.1
   '@typescript-eslint/parser': ^5.35.1
   eslint: ^8.22.0
+  eslint-config-prettier: ^8.5.0
   fork-ts-checker-webpack-plugin: ^7.2.13
   nodemon-webpack-plugin: ^4.8.1
+  prettier: ^2.7.1
   ts-loader: ^9.3.1
   typescript: ^4.8.2
   webpack: ^5.74.0
@@ -20,8 +22,10 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': registry.npmjs.org/@typescript-eslint/eslint-plugin/5.35.1_4kgehhvxgrxdvptdn2db7re534
   '@typescript-eslint/parser': registry.npmjs.org/@typescript-eslint/parser/5.35.1_shit3uhl6a7megkzgoz6xssnfa
   eslint: registry.npmjs.org/eslint/8.22.0
+  eslint-config-prettier: registry.npmjs.org/eslint-config-prettier/8.5.0_eslint@8.22.0
   fork-ts-checker-webpack-plugin: registry.npmjs.org/fork-ts-checker-webpack-plugin/7.2.13_frxmcuunqqqeqipt45cd6rjuvu
   nodemon-webpack-plugin: registry.npmjs.org/nodemon-webpack-plugin/4.8.1_webpack@5.74.0
+  prettier: registry.npmjs.org/prettier/2.7.1
   ts-loader: registry.npmjs.org/ts-loader/9.3.1_frxmcuunqqqeqipt45cd6rjuvu
   typescript: registry.npmjs.org/typescript/4.8.2
   webpack: registry.npmjs.org/webpack/5.74.0_webpack-cli@4.10.0
@@ -997,6 +1001,18 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+  registry.npmjs.org/eslint-config-prettier/8.5.0_eslint@8.22.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==, registry: https://npmreg.proxy.ustclug.org/, tarball: https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz}
+    id: registry.npmjs.org/eslint-config-prettier/8.5.0
+    name: eslint-config-prettier
+    version: 8.5.0
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: registry.npmjs.org/eslint/8.22.0
+    dev: true
+
   registry.npmjs.org/eslint-scope/5.1.1:
     resolution: {integrity: sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==, registry: https://npmreg.proxy.ustclug.org/, tarball: https://registry.npmjs.org/eslint-scope/-/eslint-scope-5.1.1.tgz}
     name: eslint-scope
@@ -1958,6 +1974,14 @@ packages:
     name: prelude-ls
     version: 1.2.1
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  registry.npmjs.org/prettier/2.7.1:
+    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==, registry: https://npmreg.proxy.ustclug.org/, tarball: https://registry.npmjs.org/prettier/-/prettier-2.7.1.tgz}
+    name: prettier
+    version: 2.7.1
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   registry.npmjs.org/pstree.remy/1.1.8:
