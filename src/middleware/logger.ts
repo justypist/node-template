@@ -6,6 +6,6 @@ export const logger: Middleware = async (ctx, next) => {
   console.time(logId);
   console.debug(ctx.request);
   await next();
-  console.timeEnd(logId);
   console.debug(ctx.response);
+  console.timeEnd(logId);
 };
