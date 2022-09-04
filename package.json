@@ -34,7 +34,6 @@
     "@typescript-eslint/parser": "^5.35.1",
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
-    "fork-ts-checker-webpack-plugin": "^7.2.13",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "nodemon-webpack-plugin": "^4.8.1",

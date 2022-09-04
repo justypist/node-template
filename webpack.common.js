@@ -1,14 +1,7 @@
 const path = require( 'path' );
-const nodeExternals = require( 'webpack-node-externals' );
 
 const WebpackConfig = {
   target: 'node',
-  externalsPresets: {
-    node: true,
-  },
-  externals: [
-    nodeExternals(),
-  ],
   entry: './src/index.ts',
   output: {
     filename: 'index.js',
@@ -22,9 +15,6 @@ const WebpackConfig = {
         use: [
           {
             loader: 'ts-loader',
-            // options: {
-            //   transpileOnly: true,
-            // },
           },
         ],
       },

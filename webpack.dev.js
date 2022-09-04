@@ -1,14 +1,19 @@
 const path = require( 'path' );
 const { merge } = require( 'webpack-merge' );
 const common = require( './webpack.common' );
-const ForkTsCheckerWebpackPlugin = require( 'fork-ts-checker-webpack-plugin' );
 const NodemonWebpackPlugin = require( 'nodemon-webpack-plugin' );
+const nodeExternals = require( 'webpack-node-externals' );
 
 module.exports = merge( common, {
   mode: 'development',
+  externalsPresets: {
+    node: true,
+  },
+  externals: [
+    nodeExternals(),
+  ],
   devtool: 'eval-source-map',
   plugins: [
-    // new ForkTsCheckerWebpackPlugin(),
     new NodemonWebpackPlugin( {
       // If using more than one entry, you can specify
       // which output file will be restarted.
