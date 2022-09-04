@@ -10,7 +10,7 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "dev": "concurrently \"tsc --watch\" \"nodemon ./dist/index.js\"",
+    "dev": "npm run build && concurrently \"tsc --watch\" \"nodemon ./dist/index.js\"",
     "build": "rm -rf dist && tsc --build"
   },
   "repository": {
