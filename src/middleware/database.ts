@@ -2,13 +2,20 @@ import { User } from '@entity/user.entity';
 import { Middleware } from 'koa';
 import { DataSource } from 'typeorm';
 
+// const dataSource = new DataSource({
+//   type: 'mysql',
+//   host: 'docker.yongx.icu',
+//   port: 3306,
+//   username: 'root',
+//   password: '12345678',
+//   database: 'test',
+//   entities: [User],
+//   synchronize: true
+// });
+
 const dataSource = new DataSource({
-  type: 'mysql',
-  host: 'docker.yongx.icu',
-  port: 3306,
-  username: 'root',
-  password: '12345678',
-  database: 'test',
+  type: 'sqlite',
+  database: './dist/index.db',
   entities: [User],
   synchronize: true
 });
