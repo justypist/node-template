@@ -15,7 +15,7 @@ import { DataSource } from 'typeorm';
 
 const dataSource = new DataSource({
   type: 'sqlite',
-  database: './dist/index.db',
+  database: './temp/index.db',
   entities: [User],
   synchronize: true
 });

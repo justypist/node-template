@@ -1,3 +1,8 @@
+# node deps
 node_modules
-
+# dist dir
 dist
+# temp files
+temp
+# mac os
+.DS_Store
