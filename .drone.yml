@@ -1,0 +1,21 @@
+kind: pipeline
+type: docker
+name: Auto Build - main
+
+steps:
+  - name: build
+    image: node:18.16.1
+    commands:
+      - npm config --location=global set registry https://registry.npmmirror.com/
+      - npm install --location=global pnpm@8.6.0
+      - pnpm install
+      - pnpm build
+  - name: Package
+    image: alpine:3.18.2
+    commands:
+      - du -d 0 -h dist/*
+      - du -d 0 -h dist
+
+trigger:
+  branch:
+    - main
