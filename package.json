@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "Node服务端应用模板",
   "private": true,
-  "_moduleAliases": {
-    "@controller": "./dist/controller",
-    "@entity": "./dist/entity",
-    "@middleware": "./dist/middleware"
-  },
   "scripts": {
     "prepare": "husky install",
     "dev": "npm run build && concurrently \"tsc --watch\" \"nodemon ./dist/index.js\"",
@@ -15,24 +10,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simplessor/node-template.git"
+    "url": "https://git.typist.cc/typist/node-template.git"
   },
   "keywords": [
     "nodejs",
     "template"
   ],
-  "author": "yongx",
+  "author": "typist",
   "license": "GPL3.0",
   "bugs": {
-    "url": "https://github.com/simplessor/node-template/issues"
+    "url": "https://git.typist.cc/typist/node-template/issues"
   },
-  "homepage": "https://github.com/simplessor/node-template#readme",
+  "homepage": "https://git.typist.cc/typist",
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
     "@tsconfig/node16": "^1.0.3",
-    "@types/koa": "^2.13.5",
-    "@types/koa__router": "^8.0.11",
     "@types/node": "^18.7.13",
     "@typescript-eslint/eslint-plugin": "^5.35.1",
     "@typescript-eslint/parser": "^5.35.1",
@@ -46,13 +39,5 @@
     "typescript": "^4.8.2"
   },
   "dependencies": {
-    "@koa/router": "^12.0.0",
-    "koa": "^2.13.4",
-    "koa-body": "^5.0.0",
-    "module-alias": "^2.2.2",
-    "mysql": "^2.18.1",
-    "reflect-metadata": "^0.1.13",
-    "sqlite3": "^5.0.11",
-    "typeorm": "^0.3.8"
   }
 }
