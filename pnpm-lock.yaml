@@ -6,46 +6,46 @@ settings:
 
 devDependencies:
   '@commitlint/cli':
-    specifier: ^17.0.3
+    specifier: 17.0.3
     version: registry.npmjs.org/@commitlint/cli@17.0.3
   '@commitlint/config-conventional':
-    specifier: ^17.0.3
+    specifier: 17.0.3
     version: registry.npmjs.org/@commitlint/config-conventional@17.0.3
   '@tsconfig/node16':
-    specifier: ^1.0.3
+    specifier: 1.0.3
     version: registry.npmjs.org/@tsconfig/node16@1.0.3
   '@types/node':
-    specifier: ^18.7.13
+    specifier: 18.7.13
     version: registry.npmjs.org/@types/node@18.7.13
   '@typescript-eslint/eslint-plugin':
-    specifier: ^5.35.1
+    specifier: 5.35.1
     version: registry.npmjs.org/@typescript-eslint/eslint-plugin@5.35.1(@typescript-eslint/parser@5.35.1)(eslint@8.22.0)(typescript@5.1.6)
   '@typescript-eslint/parser':
-    specifier: ^5.35.1
+    specifier: 5.35.1
     version: registry.npmjs.org/@typescript-eslint/parser@5.35.1(eslint@8.22.0)(typescript@5.1.6)
   concurrently:
-    specifier: ^7.3.0
+    specifier: 7.3.0
     version: registry.npmjs.org/concurrently@7.3.0
   eslint:
-    specifier: ^8.22.0
+    specifier: 8.22.0
     version: registry.npmjs.org/eslint@8.22.0
   eslint-config-prettier:
-    specifier: ^8.5.0
+    specifier: 8.5.0
     version: registry.npmjs.org/eslint-config-prettier@8.5.0(eslint@8.22.0)
   husky:
-    specifier: ^8.0.1
+    specifier: 8.0.1
     version: registry.npmjs.org/husky@8.0.1
   lint-staged:
-    specifier: ^13.0.3
+    specifier: 13.0.3
     version: registry.npmjs.org/lint-staged@13.0.3
   nodemon:
-    specifier: ^2.0.19
+    specifier: 2.0.19
     version: registry.npmjs.org/nodemon@2.0.19
   prettier:
-    specifier: ^2.7.1
+    specifier: 2.7.1
     version: registry.npmjs.org/prettier@2.7.1
   typescript:
-    specifier: ^5.1.6
+    specifier: 5.1.6
     version: registry.npmjs.org/typescript@5.1.6
 
 packages:

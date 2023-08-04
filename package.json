@@ -23,19 +23,19 @@
   },
   "homepage": "https://git.typist.cc/typist",
   "devDependencies": {
-    "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-conventional": "^17.0.3",
-    "@tsconfig/node16": "^1.0.3",
-    "@types/node": "^18.7.13",
-    "@typescript-eslint/eslint-plugin": "^5.35.1",
-    "@typescript-eslint/parser": "^5.35.1",
-    "concurrently": "^7.3.0",
-    "eslint": "^8.22.0",
-    "eslint-config-prettier": "^8.5.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "nodemon": "^2.0.19",
-    "prettier": "^2.7.1",
-    "typescript": "^5.1.6"
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
+    "@tsconfig/node16": "1.0.3",
+    "@types/node": "18.7.13",
+    "@typescript-eslint/eslint-plugin": "5.35.1",
+    "@typescript-eslint/parser": "5.35.1",
+    "concurrently": "7.3.0",
+    "eslint": "8.22.0",
+    "eslint-config-prettier": "8.5.0",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "nodemon": "2.0.19",
+    "prettier": "2.7.1",
+    "typescript": "5.1.6"
   }
 }
