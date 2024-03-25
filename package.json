@@ -6,7 +6,8 @@
   "scripts": {
     "prepare": "husky install",
     "dev": "npm run build && concurrently \"tsc --watch\" \"nodemon ./dist/index.js\"",
-    "build": "rm -rf dist && tsc --build"
+    "build": "rm -rf dist && tsc --build",
+    "start": "npm run build && node dist/index.js"
   },
   "repository": {
     "type": "git",
