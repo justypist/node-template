@@ -5,8 +5,8 @@ const transporter = createTransport({
   port: 587,
   secure: false,
   auth: {
-    user: '1003659191@qq.com',
-    pass: 'ymmjljymgqrxbbfc',
+    user: 'xxx',
+    pass: 'xxx',
   },
 });
 
